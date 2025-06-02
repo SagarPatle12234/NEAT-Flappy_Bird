@@ -15,20 +15,20 @@ GRAVITY = 1.5
 
 # Load and scale assets
 BIRD_IMGS = [
-    pygame.transform.scale2x(pygame.image.load(os.path.join("assets/imgs", "bird1.png"))),
-    pygame.transform.scale2x(pygame.image.load(os.path.join("assets/imgs", "bird2.png"))),
-    pygame.transform.scale2x(pygame.image.load(os.path.join("assets/imgs", "bird3.png")))
+    pygame.transform.scale2x(pygame.image.load("bird1.png")),
+    pygame.transform.scale2x(pygame.image.load(("bird2.png")),
+    pygame.transform.scale2x(pygame.image.load("bird3.png"))
 ]
 
-PIPE_IMG = pygame.transform.scale2x(pygame.image.load(os.path.join("assets/imgs", "pipe.png")))
+PIPE_IMG = pygame.transform.scale2x(pygame.image.load( "pipe.png"))
 
 BG_IMG = pygame.transform.scale(
-    pygame.image.load(os.path.join("assets/imgs", "bg.png")),
+    pygame.image.load("bg.png"),
     (WIN_WIDTH, WIN_HEIGHT)
 )
 
 BASE_IMG = pygame.transform.scale(
-    pygame.image.load(os.path.join("assets/imgs", "base.png")),
+    pygame.image.load("base.png"),
     (WIN_WIDTH, FLOOR_HEIGHT)
 )
 
