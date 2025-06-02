@@ -16,3 +16,6 @@ This project uses the NEAT algorithm to train an AI agent to play Flappy Bird us
 - `Neat_Config.txt`: NEAT configuration.
 - `best_flappy_bird.pkl`: Saved best-performing AI agent.
 - All assets...
+
+License:-
+- `This project is licensed under the MIT License.`
